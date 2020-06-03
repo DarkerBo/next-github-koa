@@ -1,0 +1,23 @@
+
+{
+  "presets": [
+    "next/babel" // 覆盖nextjs的默认babel配置，以本文件的babel配置为准
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components", 
+      {
+        "ssr": true, // 预编译样式
+        "displayName": true, 
+        "preprocess": false 
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd" // 可以编译引入antd的组件的方式为按需加载
+        // "style": "css", // 使用该配置可以自动识别antd的css文件，无需手动引入，但与webpack的mini-css-plugin有冲突，因此目前还是手动引入antd的css文件
+      }
+    ]
+  ]
+}
