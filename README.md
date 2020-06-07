@@ -1,62 +1,90 @@
-# TypeScript Next.js example
+# Github 浏览系统
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+### 前言
 
-## Deploy your own
+本项目基于 Next.js 和 Koa 框架实现。主要实现了 GitHub 账号的第三方登录，查询阅览 GitHub 项目和展现项目的 Issues 详情等功能。服务端渲染 SSR 是一种利于 SEO 和页面加载速度的技术。此项目也是我初次对服务端渲染 SSR 的一个小探索吧。
 
-Deploy the example using [ZEIT Now](https://zeit.co/now):
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-typescript)
 
-## How to use it?
+### 技术栈
 
-### Using `create-next-app`
+- [x] **服务端渲染框架：** Next.js
+- [x] **前端开发语法：** React Hook
+- [x] **前端类型注解：** Typescript
+- [x] **Node.js框架：** Koa
+- [x] **数据存储：** Redis
+- [x] **第三方登录：** GitHub OAUTH
+- [x] **CSS 处理：** Styled Components
 
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npm init next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
 
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript
-cd with-typescript
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
-
-Deploy it to the cloud with [ZEIT Now](https://zeit.co/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+### 项目主要结构
 
 ```
-npm install --save-dev typescript
+├── assets          // 静态资源和公共文件
+├── components      // 公共组件
+├── pages           // 页面组件 会被解析成对应地址的路由
+├── server          // Koa中间件和Redis设置等文件
+├── service         // 接口相关文件
+├── store           // 状态管理相关文件
+├── utils	        // 公共方法，如时间处理，缓存方法等
+├── next.config.js  // next配置文件
+├── store           // 状态管理相关文件
+├── utils	        // 公共方法，如时间处理，缓存方法等
 ```
 
-To enable TypeScript's features, we install the type declaratons for React and Node.
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+### 运行效果图
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+* **第三方登录**
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+
+
+* **查询项目**
+
+
+
+* **项目详情**
+
+
+
+* **项目Issues**
+
+
+
+
+
+### 注意事项
+
+启动该项目前需要安装 Redis 并成功运行 Redis，本项目的 Redis 存储设置了密码，若所启用的Redis并没有设置密码或者密码与本项目的不同，可以在`server.js`文件中修改 Redis 相关配置。
+
+`server.js`
+
+~~~js
+// 在该处配置Redis
+const redis = new Redis({
+  port: 6379, // Redis port
+  host: "127.0.0.1", // Redis host
+  password: "123456",
+});
+~~~
+
+
+
+### 感谢
+
+***
+
+* [Next.js 官方网站](https://nextjs.org/)
+
+* [GitHub API 文档](https://developer.github.com/)
+
+* [ioredis GitHub 地址](https://github.com/luin/ioredis)
+
+* [React16.8+Next.js+Koa2开发Github全栈项目](https://coding.imooc.com/class/334.html)
+
+
+
+
+
