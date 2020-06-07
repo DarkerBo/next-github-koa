@@ -6,6 +6,8 @@
 
 
 
+
+
 ### 技术栈
 
 - [x] **服务端渲染框架：** Next.js
@@ -18,6 +20,8 @@
 
 
 
+
+
 ### 项目主要结构
 
 ```
@@ -27,11 +31,12 @@
 ├── server          // Koa中间件和Redis设置等文件
 ├── service         // 接口相关文件
 ├── store           // 状态管理相关文件
-├── utils	        // 公共方法，如时间处理，缓存方法等
+├── utils           // 公共方法，如时间处理，缓存方法等
 ├── next.config.js  // next配置文件
-├── store           // 状态管理相关文件
-├── utils	        // 公共方法，如时间处理，缓存方法等
+├── server.js       // Koa启动文件
 ```
+
+
 
 
 
@@ -39,17 +44,19 @@
 
 * **第三方登录**
 
-
+![第三方登录](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/GitHub第三方登录.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/GitHub第三方登录.gif))
 
 * **查询项目**
 
-
+![查询项目](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/查询项目.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/查询项目.gif))
 
 * **项目详情**
 
+![项目详情](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目详情.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目详情.gif))
 
+* **项目issues**
 
-* **项目Issues**
+![项目issues]([https://github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目issues.gif](https://github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目issues.gif))
 
 
 
@@ -69,6 +76,8 @@ const redis = new Redis({
   password: "123456",
 });
 ~~~
+
+
 
 
 
