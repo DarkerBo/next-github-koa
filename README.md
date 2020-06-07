@@ -44,19 +44,19 @@
 
 * **第三方登录**
 
-![第三方登录](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/GitHub第三方登录.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/GitHub第三方登录.gif))
+![第三方登录](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/GitHub第三方登录.gif)
 
 * **查询项目**
 
-![查询项目](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/查询项目.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/查询项目.gif))
+![查询项目](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/查询项目.gif)
 
 * **项目详情**
 
-![项目详情](D:/前端开发/Project/graduation/habit_formation_font/[https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目详情.gif](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目详情.gif))
+![项目详情](https:/github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目详情.gif)
 
 * **项目issues**
 
-![项目issues]([https://github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目issues.gif](https://github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目issues.gif))
+![项目issues](https://github.com/DarkerBo/next-github-koa/blob/master/readmeImages/项目issues.gif)
 
 
 
