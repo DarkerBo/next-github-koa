@@ -8,7 +8,7 @@ import { useSelector, shallowEqual } from 'react-redux';
 import { RootState } from '../../store';
 import { UserState } from '../../store/user/types';
 import config from '../../assets/config';
-import { IndexContainer, UserContainer } from './style';
+import { IndexContainer, UserContainer } from '../../styles/index';
 import Repo from '../../components/Repo';
 import { initClientCache } from '../../utils/client-cache';
 

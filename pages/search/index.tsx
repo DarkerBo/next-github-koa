@@ -3,7 +3,7 @@ import { NextPage, NextPageContext } from 'next';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { searchGithubInfo } from '../../service/github';
-import { SearchContainer, SearchItem } from './style';
+import { SearchContainer, SearchItem } from '../../styles/search';
 import { Row, Col, List, Pagination } from 'antd';
 import Repo from '../../components/Repo';
 import { initClientCache, genCacheKeyByQuery } from '../../utils/client-cache';

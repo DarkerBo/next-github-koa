@@ -15,7 +15,7 @@ import {
   LabelContainer,
   IssueItemContainer,
   IssuesContainer
-} from './style';
+} from '../../styles/detail';
 import { initClientCache, genDetailCacheKey } from '../../utils/client-cache';
 import { getTimeFromNow } from '../../utils/handleTime';
 import SearchUser from '../../components/SearchUser';
