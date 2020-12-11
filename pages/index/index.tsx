@@ -38,7 +38,7 @@ const IndexPage: NextPage<Props> = ({ userRepos, starred }) => {
   if (!userInfo || !userInfo.id) {
     return (
       <IndexContainer>
-        <p>亲，您还没有登录哦~</p>
+        <p>亲，您还没有登录哦~~~</p>
         <a href={config.github.OAUTH_URL}>
           <Button type="primary">
             点击登录
