@@ -18,7 +18,7 @@
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "antd": "^4.0.3",
     "atob": "^2.1.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-styled-components": "^1.10.7",
     "cross-env": "^7.0.2",
