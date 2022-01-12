@@ -31,7 +31,7 @@
     "koa-router": "^8.0.8",
     "koa-session": "^6.0.0",
     "lru-cache": "^5.1.1",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "moment": "^2.24.0",
     "next": "latest",
     "next-redux-wrapper": "^6.0.0-rc.7",
